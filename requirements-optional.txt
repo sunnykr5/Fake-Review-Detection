@@ -1,0 +1,3 @@
+# Optional extras. Nothing in the core pipeline requires them.
+vaderSentiment>=3.3      # better-validated sentiment; used automatically when installed
+pytest>=8.0              # the tests are plain unittest, pytest also runs them

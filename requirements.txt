@@ -1,0 +1,10 @@
+# Core pipeline (tested with these major versions; newer minor versions should work)
+numpy>=1.26
+pandas>=2.1
+scipy>=1.11
+scikit-learn>=1.4
+networkx>=3.2
+joblib>=1.3
+# API (the pipeline and the stdlib dev server need none of these)
+fastapi>=0.110
+uvicorn>=0.27

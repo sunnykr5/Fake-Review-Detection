@@ -1,0 +1,23 @@
+# data and generated artefacts: never commit datasets, trained models or databases
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+artifacts/
+models/*
+!models/.gitkeep
+# python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+# node
+node_modules/
+frontend/dist/
+# editor / os
+.DS_Store
+.idea/
+.vscode/
+*.log
+.env
